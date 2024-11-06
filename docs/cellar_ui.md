@@ -10,7 +10,7 @@ We generally prefer deposit. Like other erc4626 vault, the deposit function take
 
 The deposit function takes two arguments. The amount of the base asset and the address to recieve the share. The deposit function will mint the shares and send them to the reciever. The deposit function will also transfer the base asset from the sender to the cellar.
 
-There is a also 'previewMint' function that allow a UI to simulate the deposit for the user. Note for any vault the uses the erc4626 price oracle fuctionality for share pricing will generally see the dollar redemeption value of the shares be lower than value of funds deposited. This functionality is reccomended because it results in dramatically lower gas costs for deposits and withdrawals.
+There is also a 'previewMint' function that allow a UI to simulate the deposit for the user. Note for any vault the uses the erc4626 price oracle fuctionality for share pricing will generally see the dollar redemeption value of the shares be lower than value of funds deposited. This functionality is reccomended because it results in dramatically lower gas costs for deposits and withdrawals.
 
 ### MultiAsset Deposits
 
